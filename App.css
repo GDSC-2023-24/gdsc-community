@@ -1,0 +1,71 @@
+/* src/App.css */
+.app {
+  background-color: #18242c;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #18242c;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.header img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.left-half {
+  flex: 1;
+  padding: 20px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: calc(70% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px; 
+  border: none;
+  background-color: #ffffff;
+  color: #18242c;
+}
+
+.create-account-button {
+  width: calc(70% - 20px);
+  padding: 10px;
+  border-radius: 20px; 
+  border: none;
+  background-color: #ff046c;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.main-image {
+  flex: 1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
